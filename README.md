@@ -1,4 +1,4 @@
-# Node Assignment: User Task Queuing with Rate Limiting
+# User Task Queuing with Rate Limiting
 ## Overview
 This Node.js project implements an API that handles user tasks with rate limiting and queuing mechanisms. The system ensures that no more than one task is processed per second and no more than 20 tasks are processed per minute for each user. Any tasks exceeding the rate limit are queued and processed in sequence, ensuring that no requests are dropped.
 
